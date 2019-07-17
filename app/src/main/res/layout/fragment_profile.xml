@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ProfileFragment" android:id="@+id/frameLayout3">
+
+  <androidx.constraintlayout.widget.Guideline
+      android:layout_width="wrap_content" android:layout_height="wrap_content"
+      android:id="@+id/guideline2"
+      android:orientation="horizontal"
+      app:layout_constraintGuide_percent="0.17"/>
+  <de.hdodenhof.circleimageview.CircleImageView
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/profile_image"
+      android:layout_width="wrap_content"
+      android:layout_height="130dp"
+      tools:src="@tools:sample/avatars"
+      app:civ_border_width="2dp"
+      app:civ_border_color="#FFAF30"
+      android:layout_marginEnd="8dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:layout_marginStart="8dp"
+      app:layout_constraintStart_toStartOf="parent"
+      android:layout_marginTop="8dp"
+      app:layout_constraintTop_toTopOf="@+id/guideline2"/>
+  <TextView
+      android:text="@string/name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView3" android:layout_marginTop="16dp"
+      app:layout_constraintTop_toBottomOf="@+id/profile_image" app:layout_constraintStart_toStartOf="parent"
+      android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+      android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+  <ImageView
+      android:src="@drawable/ic_phone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView2"
+      android:scaleType="fitStart"
+      app:layout_constraintStart_toStartOf="@+id/imageView3"
+      android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/imageView3"/>
+  <TextView
+      android:text="+254725092149"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView4" app:layout_constraintTop_toTopOf="@+id/imageView2"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView2" app:layout_constraintStart_toEndOf="@+id/imageView2"
+      android:layout_marginStart="8dp"/>
+  <ImageView
+      android:src="@drawable/ic_email"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView3"
+      android:layout_marginTop="8dp"
+      app:layout_constraintTop_toBottomOf="@+id/textView3" app:layout_constraintStart_toStartOf="@+id/textView3"
+      android:layout_marginStart="8dp"/>
+  <TextView
+      android:text="kiamfestoh@gmail.com"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView5" app:layout_constraintStart_toEndOf="@+id/imageView3"
+      android:layout_marginStart="8dp"
+      app:layout_constraintTop_toTopOf="@+id/imageView3" app:layout_constraintBottom_toBottomOf="@+id/imageView3"/>
+  <ImageView
+      android:src="@drawable/ic_pin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView4"
+      android:layout_marginTop="8dp"
+      app:layout_constraintTop_toBottomOf="@+id/imageView5" app:layout_constraintStart_toStartOf="@+id/imageView5"
+  />
+  <TextView
+      android:text="Kenya"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView6" app:layout_constraintTop_toTopOf="@+id/imageView4"
+      app:layout_constraintBottom_toBottomOf="@+id/imageView4" app:layout_constraintStart_toEndOf="@+id/imageView4"
+      android:layout_marginStart="8dp"/>
+  <ImageView
+      android:src="@drawable/ic_event"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView5" android:layout_marginTop="8dp"
+      app:layout_constraintTop_toBottomOf="@+id/imageView2" app:layout_constraintStart_toStartOf="@+id/imageView2"
+  />
+  <TextView
+      android:text="Android"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView7" app:layout_constraintStart_toEndOf="@+id/imageView5"
+      android:layout_marginStart="8dp" app:layout_constraintTop_toTopOf="@+id/imageView5"
+      android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/imageView5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

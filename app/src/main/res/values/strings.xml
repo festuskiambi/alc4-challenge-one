@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ALCCHALLENGEONE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="alc_4_0">ALC 4.0</string>
+  <string name="about_alc">About Alc</string>
+  <string name="profile">Profile</string>
+  <string name="name">Festus Mwirigi Kiambi</string>
+</resources>
